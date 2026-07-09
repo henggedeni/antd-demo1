@@ -4,6 +4,12 @@ export default [
     redirect: '/home',
   },
   {
+    name: '登录页',
+    path: '/user/login',
+    component: './user/login',
+    layout: false,
+  },
+  {
     name: '首页',
     path: '/home',
     component: './home',

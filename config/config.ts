@@ -20,4 +20,9 @@ export default defineConfig({
   routes,
   npmClient: 'pnpm',
   utoopack: {},
+  locale: {
+    default: 'zh-CN',
+    antd: true,
+    baseNavigator: true,
+  },
 });
